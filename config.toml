@@ -37,7 +37,7 @@ enableGitInfo = true
     url = "/tags/"
     weight = 3
   [[menu.nav]]
-    name = "whoami"
+    name = "about"
     url = "/about/"
     weight = 4
  # [[menu.nav]]
