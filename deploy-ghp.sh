@@ -8,7 +8,7 @@ hugo -t cupper-hugo-theme  # if using a theme, replace with `hugo -t <YOURTHEME>
 
 
 # Update submodule
-git submodule update --remote --merge
+# git submodule update
 
 
 # Go To Public folder
@@ -27,10 +27,9 @@ fi
 git commit -m "$msg"
 
 
+# Push source and build repos.
+git push origin master         # --recurse-submodules=check
+
+
 # Come Back up to the Project Root
 cd ..
-
-
-# Push source and build repos.
-git push origin master --recurse-submodules=check
-
