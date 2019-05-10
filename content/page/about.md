@@ -15,8 +15,4 @@ The content encompasses stuff that I learn in my day job as a developer, or purs
 ### About me
 
 ( coming soon )
-
-- [github](https://github.com/priyank-sriv)
-
-- [linkedin](https://www.linkedin.com/in/sriv-priyank/)
-  
+ 
