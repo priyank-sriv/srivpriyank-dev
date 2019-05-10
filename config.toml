@@ -15,29 +15,30 @@ paginate = 8
   # dateFormat = "May 12, 2019"
   # comments = true
   readingTime = true
+  wordCount = true
   useHLJS = true
   socialShare = true
   # delayDisqus = true
-  showRelatedPosts = true
+  # showRelatedPosts = true
 
 [Author]
   name = "Priyank Srivastava"
-  email = "priyank.juggernaut@gmail.com"
+  # email = "priyank.juggernaut@gmail.com"
   github = "priyank-sriv"
   linkedin = "sriv-priyank"
   # stackoverflow = "users/XXXXXXX/username"
 
 [[menu.main]]
-    name = "blog"
+    name = "Blog"
     url = ""
     weight = 1
 
 [[menu.main]]
-    name = "tags"
-    url = "tags"
+    name = "Tags"
+    url = "/tags"
     weight = 2
 
 [[menu.main]]
-    name = "about"
+    name = "About"
     url = "/page/about/"
     weight = 3
