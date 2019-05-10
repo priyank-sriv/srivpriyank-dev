@@ -1,0 +1,22 @@
+---
+title: "home"
+date: 2019-05-05T01:45:06+05:30
+toc: false
+---
+
+
+### About this blog
+
+**a bit off** is a *coder's log* - the idea is to help future me revisit stuff that I might have unlearnt along the way, intentionally or unintentionally. Why's it public? Well, I'm hoping there are people out there who may find it useful, which means I'll make an effort to not suck! 
+
+The content encompasses stuff that I learn in my day job as a developer, or pursuits outside of it.
+ 
+
+### About me
+
+( coming soon )
+
+- [github](https://github.com/priyank-sriv)
+
+- [linkedin](https://www.linkedin.com/in/sriv-priyank/)
+  

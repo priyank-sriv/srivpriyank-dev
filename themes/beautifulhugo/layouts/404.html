@@ -1,0 +1,18 @@
+{{ define "header" }}<!-- No header on 404 pages -->{{ end }}
+{{ define "main" }}
+  <div role="main" class="container main-content">
+    <img src="images/404.png" alt="Page Not Found" />
+    <p style="text-align: center; font-family: 'Open Sans'; font-size: 24px">
+      Feeling 'a bit off', eh? There's nothing to see here, let's move along!
+    </p>
+  </div>
+<script>
+  var errorEmojiContainer = document.getElementsByClassName('error-emoji')[0];
+  var emojiArray = [
+    '\\(o_o)/', '(o^^)o', '(˚Δ˚)b', '(^-^*)', '(≥o≤)', '(^_^)b', '(·_·)',
+    '(=\'X\'=)', '(>_<)', '(;-;)', '\\(^Д^)/',
+  ];
+  var errorEmoji = emojiArray[Math.floor(Math.random() * emojiArray.length)];
+  errorEmojiContainer.appendChild(document.createTextNode(errorEmoji));
+</script>
+{{ end }}
