@@ -4,7 +4,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 
 # Build the project.
-hugo -t cupper-hugo-theme  # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo -t beautifulhugo  # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 
 # Update submodule
